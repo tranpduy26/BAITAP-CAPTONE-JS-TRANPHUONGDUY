@@ -1,0 +1,51 @@
+.cover {
+  background-image: url(https://4kwallpapers.com/images/wallpapers/macos-monterey-wwdc-21-stock-5k-2880x1800-5584.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 900px;
+  .col-sm-6 {
+    margin-top: 100px;
+  }
+  h1 {
+    margin-bottom: 15px;
+    font-size: 70px !important;
+    color: $color-white-2;
+  }
+  img {
+    width: 95%;
+  }
+  .list_star {
+    margin-bottom: 50px;
+    color: $color-white-3;
+    i:hover {
+      color: $color-white-1;
+    }
+  }
+  p {
+    font-size: $fs-2;
+    font-weight: $fw-2;
+    margin-bottom: 30px;
+    color: $color-white-3;
+  }
+  h2 {
+    margin-bottom: 30px;
+    color: $color-yellow-1;
+  }
+  button {
+    padding: 18px 10px;
+    border: none;
+    background-color: $color-red-2;
+    color: $color-white-2;
+    border-radius: 5px;
+    font-size: 18px;
+    transition: all 0.5s;
+    &:hover {
+      color: $color-dark-1;
+      background-color: $color-red-1;
+    }
+    i {
+      padding-right: 10px;
+    }
+  }
+}

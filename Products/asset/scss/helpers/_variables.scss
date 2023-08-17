@@ -1,0 +1,33 @@
+// Định nghĩa các biến màu
+$color-dark-1: #202529;
+$color-dark-2: #434343;
+$color-white-1: #fff;
+$color-white-2: #f7f7f7;
+$color-white-3: #b7b7b7;
+$color-red-1: #E96443;
+$color-red-2: #ff0000;
+$color-yellow-1: #f0b70e;
+$color-green-1: #06a800be;
+
+// Định nghĩa các biến cỡ chữ
+$fs-1: 14px;
+$fs-2: 1.1rem;
+$fs-3: 1.8rem;
+$fs-4: 70px;
+$fs-5: 1.6rem;
+$fs-6: 2.25rem;
+$fs-7: 20px;
+$fs-8: 44px;
+
+// Định nghĩa các biến cho độ đậm chữ
+$fw-1: 400;
+$fw-2: 600;
+$fw-3: 700;
+
+// Định nghĩa breakpoints (reponsive)
+$breakpoints: (
+  'small': 576px,
+  'medium': 768px,
+  'large': 992px,
+  'extra-large': 1200px,
+);

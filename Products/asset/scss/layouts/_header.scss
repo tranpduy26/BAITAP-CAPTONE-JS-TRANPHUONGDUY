@@ -1,0 +1,53 @@
+header {
+  background-color: rgba(0, 0, 1, 0.799);
+  position: fixed;
+  z-index: 999;
+  top: 0;
+  left: 0;
+  width: 100%;
+  .container {
+    padding: 10px 0 0 0;
+    display: flex;
+    width: 100%;
+  }
+  .nav_brand {
+    color: $color-white-2;
+    font-size: $fs-3;
+    font-weight: $fw-2;
+  }
+  .navbar_nav {
+    width: 70%;
+    position: relative;
+    margin-left: 50px;
+  }
+  .link_list {
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+  }
+  .nav_link {
+    text-decoration: none;
+    color: $color-white-2;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    i {
+      text-align: center;
+      font-size: $fs-3;
+      transition: font-size 0.3s ease;
+      &:hover {
+        font-size: 32px;
+      }
+    }
+  }
+  .quan_tri {
+    position: absolute;
+    left: 150px;
+  }
+  .fa-robot {
+    margin-right: 15px;
+  }
+}
+
+@media screen and (min-width: 576px) {
+}
